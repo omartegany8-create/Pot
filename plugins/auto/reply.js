@@ -1,7 +1,7 @@
 export default async function before(m, { conn }) {
 
   const videos = {
-    "تست": "https://files.catbox.moe/rigmw4.mp4",
+    "تست": "https://files.catbox.moe/32lk04.mp4",
     "بوت": "https://files.catbox.moe/9b6x2n.mp4",
     "e": "https://files.catbox.moe/32lk04.mp4⁠"
   };
