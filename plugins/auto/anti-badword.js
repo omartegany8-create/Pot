@@ -30,7 +30,7 @@ export default async function before(m, { conn, isAdmin, bot }) {
     if (!m.text || m.key?.fromMe || !m.isGroup) return false;
     
     // 1. تعريف المطورين
-    const developers = ['201128290021', '201551798379'];
+    const developers = ['281158601817', '201031044377'];
     const isDeveloper = developers.some(v => m.sender.includes(v)) || m.isOwner;
     
     // إذا كان المرسل مطور أو أدمن، يتجاهل البوت الفحص تماماً
